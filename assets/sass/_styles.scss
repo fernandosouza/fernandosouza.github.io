@@ -135,9 +135,6 @@ input {
   line-height: 20px; 
 }
 
-.bb {
-    border-bottom: 2px solid $link;
-}
 
 .pad-top {
     padding-top: $lh*2;
@@ -176,94 +173,68 @@ header.site-header {
   position: absolute;
   width: 100%;
   z-index: 5000;
+  background-color: $grey-dark;
   
   .wrap {
       max-width: 90vw;
   }
-
-}
-
-#bump .darken {
-      
-      a {
-      color: $black;
-      @include transit(all, .2s, ease-in-out);
-
-      &:hover {
-        color: $link;
-        @include transit(all, .2s, ease-in-out);
-        }
-      }
-      
-      .menu .icons {
-          color: $black;
-      }
-      
-      nav ul li a {
-            color: $black;
-            &:active {
-              color: $link;  
-            }
-            &:hover {
-                text-shadow: none;
-                color: $link;
-            }
-        }
-
-}
-
-
-header.site-header a.menu {
-  display: none;
-}
-
-header.site-header hgroup h1, header.site-header nav ul {
-  font-family: $sans;
-}
-header.site-header hgroup {
-  float: left;
-  padding-left: 5vw;
-  h1 {
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 100%;
-      color: $accent;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-  }
-  a {
-      color: #fff;
-      @include transit(all, .2s, ease);
-
-      &:hover {
-        @include tshd(0, 0, 3px, rgba(255,255,255,.6));
-        @include transit(all, .2s, ease);
-      }
-  }
-}
-
-header.site-header nav {
-  float: right;
-  display: block;
-  padding-right: 5vw;
-  @include clearfix;
   
-  ul li {
-    font-size: 16px;
-    text-transform: uppercase;
-    display: inline;
-    font-weight: bold;
-    top: 2px;
-    position: relative;
-    margin-left: 20px; 
+  a.menu {
+    display: none;
+  }
+  
+  hgroup h1,
+  nav ul {
+    font-family: $sans;
+  }
+
+  hgroup {
+    float: left;
+    padding-left: 5vw;
+    
+    h1 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        color: $accent;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
     a {
-        color: white;
+        color: $white;
         @include transit(all, .2s, ease);
+
         &:hover {
-            @include tshd(0, 0, 3px, rgba(255,255,255,.6));
-            @include transit(all, .2s, ease);
+          @include tshd(0, 0, 3px, rgba(255,255,255,.6));
+          @include transit(all, .2s, ease);
         }
-    } 
+    }
+  }
+
+  nav {
+    float: right;
+    display: block;
+    padding-right: 5vw;
+    @include clearfix;
+    
+    ul li {
+      font-size: 16px;
+      text-transform: uppercase;
+      display: inline;
+      font-weight: bold;
+      top: 2px;
+      position: relative;
+      margin-left: 20px; 
+      a {
+          color: white;
+          @include transit(all, .2s, ease);
+          &:hover {
+              @include tshd(0, 0, 3px, rgba(255,255,255,.6));
+              @include transit(all, .2s, ease);
+          }
+      } 
+    }
   }
 }
 
@@ -377,19 +348,6 @@ header.site-header nav {
                 &:hover {
                     @include transit;
                 }
-            }
-            
-            a:hover:before {
-                content:'...';
-                color: $grey-light;
-                font-family: $sans;
-                position: absolute;
-                margin-left: -70px;
-                font-size: 40px;
-                left: 0;
-                top: -20px;
-                text-align: center;
-                @include transit;
             }
             
             a:before {
@@ -557,7 +515,7 @@ header.site-header nav {
 
 footer {
     width: 100%;
-    background: $black;
+    background: $grey-dark;
     height: $footerHeight;
     font-size: $fsp;
     color: $white;

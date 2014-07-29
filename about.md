@@ -1,26 +1,21 @@
 ---
 layout: post
 permalink: /about/index.html
-title: About the Theme
-description: Balzac is a new, fluid & responsive theme for Jekyll (and AnchorCMS). It's gloriously beautiful and suited to long form. Built on a SCSS foundation, it's organized and awesome.
-tags: [about, Jekyll, theme, responsive]
+title: About me
+description: Front-end engineer, guitar player and a cook at free time, from Pernambuco, Brazil. A passionate for web app applications and client side development. Ready for find fast and elegant solutions.
+tags: [about, web applications, development]
 image:
   feature: soft-trees.jpg
 ---
 
-This is built on Semantic.gs grid framework which I edited a bit to make it fluid. I hope you enjoy using, forking, whatevering this theme as much as I did making it. 
+I did have the pleasure to work for great brazilian companies in big amazing projects with awesome coworkers. Look my [LinkedIn](https://www.linkedin.com/pub/nando-souza/b/9a3/557 "Fernando Souza LinkedIn profile") to know more about my career, or check it out my code on [GitHub](https://github.com/fernandosouza "Fernando Souza GitHub profile").
 
-### Features
-* flexible, uses max-width for responsive goodness
-* responsive drop down menu
-* retina images using @2x
-* post loop in the footer showing 3 latest post
-* custom portfolio page for case studies
-
-### Acknowledgements
-I utilized my own HTML templates, but had no prior knowledge of liquid nor the required Jekyll system file format. I took [Michael Rose](http://twitter.com/mmistakes)'s theme [Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/). Having a prebuilt archive and the YAML front-matter already set up was a great help. 
-
- The lovely font shown here is Calendas. For full splendor on your blog, I suggest you [head over and buy that](http://calendasplus.com/). The full family is 3 weights and costs $3. Many thanks to Daniel Bruce for the wonderful Entypo icons. Those can be picked up at [entypo.com](http://entypo.com), but are included with the source files. It's also <b>retina ready</b> via retina.js. Check out how that works over at [retinajs.com](http://retinajs.com).
-
-### The Name
-Balzac was a famous writer, known for his beautiful prose. I read some Balzac in school, but mostly feel comfort in the name of my favorite coffee shop in Stratford, Ontario. 
+### Some of my Skills
+* JavaScript
+* AngularJS :)
+* CSS3
+* CSS Preprocessor (SASS and LESS)
+* Responsive design
+* HTML5
+* Version controll (GIT and SVN)
+* Image editor, of course. (Photoshop and Fireworks)
