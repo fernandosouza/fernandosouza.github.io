@@ -5,7 +5,7 @@ title: About me
 description: Front-end engineer, guitar player and a cook at free time, from Pernambuco, Brazil. A passionate for web app applications and client side development. Ready for find fast and elegant solutions.
 tags: [about, web applications, development]
 image:
-  feature: soft-trees.jpg
+<!-- feature: soft-trees.jpg -->
 ---
 
 I did have the pleasure to work for great brazilian companies in big amazing projects with awesome coworkers. Look my [LinkedIn](https://www.linkedin.com/pub/nando-souza/b/9a3/557 "Fernando Souza LinkedIn profile") to know more about my career, or check it out my code on [GitHub](https://github.com/fernandosouza "Fernando Souza GitHub profile").
